@@ -4,11 +4,12 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args){
-        calculateByFormula();
-        digitSumm();
-        digitSumm2();
-        rounding();
-        ostatok();
+        //calculateByFormula();
+        //digitSumm();
+       // digitSumm2();
+        //rounding();
+        //ostatok();
+        changeValues();
     }
 
     // Задача 1:
@@ -50,7 +51,7 @@ public class Main {
 //выводящую на экран сумму цифр n. Например: n =126, в результате мы должны получить
 //9 (1+2+6)
     public static void digitSumm2(){
-        int n = 300;
+        int n = 353;
 
         int firstDigit = n/100;
         int lastDigit = n %10;
@@ -91,4 +92,31 @@ public class Main {
         System.out.println();
 
     }
+
+
+    //Задача *:
+    //Написать программу которая будет менять местами значение целочисленных
+    //переменных. Пример:
+    //int a = 1; int b = 2;
+    ////код (ваше решение)
+    //sout(a); //выведет 2
+    //sout(b); //выведет 1
+    //Усовершенствовать программу, использовать только 2 входные переменные (a,b)
+    public static void changeValues(){
+        int a = 2;
+        int b = 234;
+
+
+        a = a+b;
+        b = a-b;
+        a = a-b;
+
+        //int c = a;
+       // a = b;
+       // b = c;
+        System.out.println("Значение a:"+a + " Значение b:" + b);
+
+
+    }
+
 }
