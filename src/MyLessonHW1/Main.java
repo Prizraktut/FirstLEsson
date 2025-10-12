@@ -2,6 +2,8 @@ package MyLessonHW1;
 
 import java.util.Scanner;
 
+import static Lesson3_HW.Lesson3_HW.math1;
+
 public class Main {
     public static void main(String[] args){
         //calculateByFormula();
@@ -9,7 +11,7 @@ public class Main {
        // digitSumm2();
         //rounding();
         //ostatok();
-        changeValues();
+        math1();
     }
 
     // Задача 1:
