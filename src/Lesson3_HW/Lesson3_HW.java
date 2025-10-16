@@ -3,7 +3,7 @@ package Lesson3_HW;
 import java.util.Scanner;
 
 public class Lesson3_HW {
-    public static void math1 (){
+    public static void main (String[] args){
        // isEven();
         // isWArm();
         //numbersSQRT();
@@ -81,7 +81,9 @@ public class Lesson3_HW {
 
         while (out == false){
             System.out.print("Введите любое целое положительное число либо завершите работу, набрав \"-1\": ");
-            n = input.nextDouble();
+            if (input.hasNextInt()) {
+                n = input.nextDouble();
+            }
 
             if ((n < 1 || n % 1 != 0) && n != -1) {
                 System.out.println("Необходимо внести целое положительное число!");
@@ -105,4 +107,3 @@ public class Lesson3_HW {
         System.out.println("Сумма чисел от 1 до " + n + " равняется " + summ);
     }
 }
-

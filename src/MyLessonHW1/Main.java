@@ -2,7 +2,7 @@ package MyLessonHW1;
 
 import java.util.Scanner;
 
-import static Lesson3_HW.Lesson3_HW.math1;
+//import static Lesson4_HW.Lesson4_HW.massives;
 
 public class Main {
     public static void main(String[] args){
@@ -11,7 +11,6 @@ public class Main {
        // digitSumm2();
         //rounding();
         //ostatok();
-        math1();
     }
 
     // Задача 1:
