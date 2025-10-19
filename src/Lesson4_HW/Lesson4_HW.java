@@ -169,9 +169,11 @@ public class Lesson4_HW {
     public static void correctMassive(){
         Scanner Scanner = new Scanner(System.in);
 
-        int[] massive = new int[]{3,7,6,5,4};
+        int[] massive = new int[]{9,9,9,9,9};
 
         String massiveString = "";
+
+
         int numbersNew = 0;
         char[] massiveChar;
 
@@ -187,11 +189,13 @@ public class Lesson4_HW {
 
         massiveChar = massiveString.toCharArray();
 
-        for(int count = 0;count<massive.length;count++){
-            massive[count] = Character.getNumericValue(massiveChar[count]);
+        int[] massiveNew = new int[massiveChar.length];
+
+        for(int count = 0;count<massiveChar.length;count++){
+            massiveNew[count] = Character.getNumericValue(massiveChar[count]);
         }
 
-        System.out.println(Arrays.toString(massive));
+        System.out.println(Arrays.toString(massiveNew));
 
     }// конец метода
 
