@@ -1,10 +1,10 @@
 package Lesson6_HW;
 
-public class CreditCardInfo {
+public class OOP {
 
     public static void main( String[] args){
-CreateAccAndDoOperations();
-
+        //CreateAccAndDoOperations();
+        startATM();
     }
 
     public static void CreateAccAndDoOperations(){
@@ -17,7 +17,19 @@ CreateAccAndDoOperations();
 
     }
 
+public static void startATM(){
+        boolean ans = true;
+        ATM bankATM = new ATM(20,0,2);
+        bankATM.takeBanknotes();
+        ans = bankATM.receiveBanknotes();
+        if (ans){
+            System.out.println("Success");
 
+        }
+else {
+            System.out.println("Failed");
+        }
 
+}
 
 }
