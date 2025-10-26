@@ -23,13 +23,16 @@ public class ATM {
     }
 
     public void takeBanknotes(){
-        System.out.print("Enter money byn10 to put, please ");
+        System.out.println("Enter bills byn10 to put, please ");
+        System.out.print("Count of bills: ");
         int inputMoney =  input();
         BYN10+=inputMoney;
-        System.out.print("Enter money byn20 to put, please ");
+        System.out.println("Enter bills byn20 to put, please ");
+        System.out.print("Count of bills: ");
          inputMoney =  input();
         BYN20+=inputMoney;
-        System.out.print("Enter money byn50 to put, please ");
+        System.out.println("Enter bills byn50 to put, please ");
+        System.out.print("Count of bills: ");
          inputMoney =  input();
         BYN50+=inputMoney;
         System.out.println("OK");
