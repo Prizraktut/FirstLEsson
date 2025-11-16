@@ -28,4 +28,9 @@ public class Triangle extends Shapes{
     public double squre() {
         return (hypotenuse*high)/2;
     }
+
+    @Override
+    public int hashCode() {
+        return super.hashCode();
+    }
 }

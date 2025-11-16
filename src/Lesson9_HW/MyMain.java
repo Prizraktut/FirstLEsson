@@ -13,9 +13,9 @@ public class MyMain {
 
     public static void main (String[] args){
         //getInformationPost();
-        //calculateSquare();
+        calculateSquare();
         //getFigures();
-        cloneAcc();
+        //cloneAcc();
     }
 
     public static void getInformationPost(){

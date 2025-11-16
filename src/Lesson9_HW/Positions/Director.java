@@ -12,4 +12,6 @@ public class Director implements Print {
     public void printPost() {
         System.out.println("Person's position is \"" + post + "\"");
     }
+
+
 }
